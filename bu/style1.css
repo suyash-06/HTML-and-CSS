@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: "Roboto", sans-serif;
+}
+
+.head {
+  height: 110px;
+  align-items: center;
+  background-color: #002244;
+  position: relative;
+}
+
+.container {
+  height: 560px;
+  background-color: white;
+}
+
+.title {
+  height: 70px;
+  width: 240px;
+  background-color: white;
+  position: absolute;
+
+  margin-left: 40%;
+  margin-top: 15px;
+  text-align: center;
+  border: 4px solid;
+  border-color: #d2122e;
+  padding-top: 5px;
+}
+
+img {
+  display: inline;
+  float: left;
+  /* margin-top: 20px; */
+}
+.text {
+  display: block;
+  margin-left: 120px;
+  margin-right: 150px;
+  text-align: left;
+  line-height: 1.3;
+  /* margin-top: 5px; */
+}
+
+.one {
+  width: 90%;
+  height: 140px;
+  background-color: white;
+  color: #002244;
+
+  margin-left: 5%;
+  margin-right: 5%;
+  /* padding-top: 7px; */
+}
+
+.top {
+  height: 130px;
+  margin-left: 5%;
+  margin-right: 5%;
+  /* background-color: blanchedalmond; */
+}
+
+button.read {
+  border: solid 2px #d2122e;
+  /* height: 10 px; */
+  width: 150px;
+  background-color: #d2122e;
+  color: white;
+  margin-left: 20px;
+  padding: 4px;
+}
+
+footer {
+  background-color: #002244;
+  text-align: center;
+  height: 35px;
+  color: white;
+}
+.left {
+  height: 100px;
+  width: 38%;
+  /* background-color: #d2122e; */
+  float: left;
+  margin-top: 15px;
+  color: #002244;
+}
+.right {
+  height: 100px;
+  width: 24%;
+  /* background-color: #d2122e; */
+  float: right;
+  margin-top: 15px;
+  color: #002244;
+}
+
+select {
+  width: 200px;
+  height: 40px;
+  color: #002244;
+  border: 3px solid #002244;
+}
+
+.middle {
+  display: inline-block;
+
+  height: 100px;
+  /* background-color: aqua; */
+  width: 20%;
+  margin-top: 15px;
+  text-align: center;
+  justify-content: center;
+}
+h2.allnews {
+  font-size: 30px;
+  margin-top: 35px;
+}
+input {
+  width: 220px;
+  height: 30px;
+  border: solid 2px #002244;
+}
+.subscribe {
+  border: solid 2px;
+  /* height: 10 px; */
+  width: 100px;
+  background-color: #002244;
+  color: white;
+  height: 36px;
+  /* padding: 4px; */
+}
+
+hr.main {
+  height: 2px;
+  background-color: #002244;
+}
+
+hr.cn1 {
+  height: 0.1px;
+  border: none;
+  margin-right: 5%;
+  margin-left: 5%;
+  background-color: grey;
+}
+
+button:hover {
+  cursor: pointer;
+}
